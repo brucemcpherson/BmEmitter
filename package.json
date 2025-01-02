@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"test": "ava",
+		"togas": "sh togas.sh"
+	},
+	"devDependencies": {
+		"ava": "^6.2.0"
+	},
+	"type": "module"
+}
