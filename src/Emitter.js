@@ -137,6 +137,10 @@ export class BmEvent {
     this._listeners = new Map()
   }
 
+  get listenerCount () {
+    return this.listeners.size
+  }
+
 }
 
 /**
@@ -275,7 +279,7 @@ export class BmEmitter {
    */
   listenerCount(name) {
     const e = this.fetchEvent(name)
-    return e.listeners.size
+    return e.listenerCount
   }
 
   /**
