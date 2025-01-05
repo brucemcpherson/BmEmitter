@@ -8,4 +8,6 @@ For more info on BmEmitter try https://ramblings.mcpher.com/?s=BmEmitter or use 
 ## Library reference
 11uODffaJQ9JL7MTC_reXIJhStbUBalUL1McbnEBkU2_kiRsw5STlFYtj
 
-Now update manually with details of this project - this skeleton file is committed only when there is no README.md in the repo.
+This also contains the pre clasp code. 
+
+see https://ramblings.mcpher.com/an-event-emitter-for-apps-script/ for docs on how to use
